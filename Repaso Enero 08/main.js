@@ -39,7 +39,7 @@ function obtenerNombresSeparadosPorComa(listaNombres){
    
 
     posicion++;
-  } //agregue un + a la linea de posicion dentro del while y el termino .length a la condicion del while;
+  } //agregue un + a la linea de posicion dentro del while  y sume la coma requerida .y el termino .length a la condicion del while, también quite el igual de la condición;
 
   return resultado;
 }
