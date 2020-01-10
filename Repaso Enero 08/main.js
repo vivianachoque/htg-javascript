@@ -20,7 +20,7 @@ function obtenerMenoresQue30(numeros) {
 }
 //let listaNum = [30];
 let listaNum = [1,32,2,3]
-console.log(obtenerMenoresQue30(listaNum));
+console.log(ob tenerMenoresQue30(listaNum));
 */
 /*
 
@@ -49,3 +49,39 @@ function obtenerNombresSeparadosPorComa(listaNombres){
 }
 
 console.log(obtenerNombresSeparadosPorComa(['Diego','Kike','Maru','Sebas']));
+
+
+
+
+/*Ejercicio 3: números aleatorios: Hacer una función que al recibir dos números, genere un número
+ aleatorio entre esos dos números.
+Por ejemplo: Si se ejecutase la función:
+generarNumero(20, 30);
+Debería devolver un número entre 20 y 30.
+*/
+
+function aleatorioEntreNumeros(min,max){
+  
+  return Math.round(Math.random() * (max - min) + min);
+}
+
+/*Ejercicio 4: Buscando Usuarios: Hacer una función que dado un parámetro de búsqueda, 
+retorne la información de todas las incidencias dentro del listado de usuarios adjunto.
+
+ener en cuenta que también se debe retornar ese objeto si la búsqueda es 'Mejia'  o '1.010'.
+Criterios de aceptación
+- La búsqueda puede ser por cualquiera de los datos que estén en el objeto (nombre, apellido o dni).
+*/
+
+function crearPersona(nombre,apellido,dni){
+  let persona = {
+    nombreP : nombre,
+    apellidoP : apellido,
+    dniP : dni
+  }
+  return persona; 
+}
+
+function buscarUsuarios(datoDeBusqueda){
+
+}
