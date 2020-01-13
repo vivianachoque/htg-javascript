@@ -1,0 +1,2 @@
+Hacer una app para que los vecinos puedan notificar a una entidad para que le den prioridad a ello. 
+Con la app se pueden sacar estadisticas sobre el transito, donde se pone mas denso por ej.: De acuerdo a eso generamos nuevos senderos.
