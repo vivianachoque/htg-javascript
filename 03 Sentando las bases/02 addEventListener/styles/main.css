@@ -98,6 +98,9 @@ a {
   padding: 15px;
 }
 
+.alerta {
+  color: red
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
